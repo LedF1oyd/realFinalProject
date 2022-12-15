@@ -12,6 +12,9 @@
     <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="finishd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/car/bean/CarVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/bean/CarVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/member/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/member/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/car-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/car-mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +194,7 @@
       <workItem from="1670672436390" duration="1374000" />
       <workItem from="1671088926726" duration="1785000" />
       <workItem from="1671091539755" duration="235000" />
-      <workItem from="1671092474247" duration="7161000" />
+      <workItem from="1671092474247" duration="8148000" />
     </task>
     <task id="LOCAL-00001" summary="finishd">
       <created>1670593581433</created>
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671098649563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finishd">
+      <created>1671100087008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671100087008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

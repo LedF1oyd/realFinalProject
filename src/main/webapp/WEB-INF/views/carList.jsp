@@ -20,6 +20,7 @@
 
         <th>Id</th>
         <th>Brand</th>
+        <th>Name</th>
         <th>Type of Car</th>
         <th>Color</th>
         <th>Photo</th>
@@ -35,6 +36,7 @@
             <tr align="center">
                 <td>${u.getCarid()}</td>
                 <td>${u.getBrand()}</td>
+                <td>${u.getCarName()}</td>
                 <td>${u.getCarType()}</td>
                 <td>${u.getColor()}</td>
                 <td >

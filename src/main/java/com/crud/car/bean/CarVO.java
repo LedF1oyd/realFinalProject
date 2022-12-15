@@ -6,6 +6,16 @@ public class CarVO {
     private int carid;
     private String brand;
     private String carType;
+
+    public String getCarName() {
+        return carName;
+    }
+
+    public void setCarName(String carName) {
+        this.carName = carName;
+    }
+
+    private String carName;
     private String color;
     private String photo;
     private String manufacturedDay;
