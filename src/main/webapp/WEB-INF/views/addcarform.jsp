@@ -13,13 +13,13 @@
 <table id = edit>
     <tr><td>브랜드</td><td>
         <select id = "brandSelection" name = "brand">
-            <option value="현대">현대</option>
-            <option value="기아">기아</option>
-            <option value="제네시스">제네시스</option>
-            <option value="쌍용">쌍용</option>
-            <option value="르노코리아자동차">르노코리아자동차</option>
-            <option value="한국GM">한국GM</option>
-            <option value="기타">기타</option>
+            <option value="현대">Hyundai</option>
+            <option value="기아">Kia</option>
+            <option value="제네시스">Genesis</option>
+            <option value="쌍용">SSangYong</option>
+            <option value="르노코리아자동차">Renault Korea</option>
+            <option value="한국GM">GM Korea</option>
+            <option value="기타">Other</option>
     </select></td></tr>
 <tr><td>차종</td><td><input type="radio" id = "sedan" name = "carType" value ="Sedan"/>
     <label for="sedan">세단</label>

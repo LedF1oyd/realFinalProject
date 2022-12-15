@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="finishd">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="careditform 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671098649563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="careditform 추가">
+      <created>1671102756496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671102756496</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +261,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finishd" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishd" />
+    <MESSAGE value="careditform 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="careditform 추가" />
   </component>
 </project>
