@@ -40,8 +40,8 @@
 </tr>
 <tr>
     <td>차 색상</td>
-    <td><input type="color" id="col" name = "col" value = "#e666465">
-        <label for="col">색상을 고르시오.</label>
+    <td><input type="color" id="color" name = "color" value = "#e666465">
+        <label for="color">색상을 고르시오.</label>
 
     </td>
 </tr>
@@ -65,7 +65,7 @@
     <tr>
         <td>주행거리</td>
         <td>
-            <input type="text" id="point" name="point">
+            <input type="text" id="mileage" name="mileage">
         </td>
     </tr>
     <tr>
@@ -84,17 +84,17 @@
             차량의 옵션
         </td>
         <td>
-            <input type="checkbox" id="led" name="option[]" value="LED headlamp" class="checkSelect">
+            <input type="checkbox" id="led" name="options[]" value="LED headlamp" class="checkSelect">
             <label for="led">LED 헤드램프</label><br>
-            <input type="checkbox" id="HID" name="option[]" value="HID headlamp" class="checkSelect">
+            <input type="checkbox" id="HID" name="options[]" value="HID headlamp" class="checkSelect">
             <label for="HID">HID 헤드램프</label><br>
-            <input type="checkbox" id="HUD" name="option[]" value="HUD(Head Up Display)" class="checkSelect">
+            <input type="checkbox" id="HUD" name="options[]" value="HUD(Head Up Display)" class="checkSelect">
             <label for="HUD">HUD(Head Up Display)</label><br>
-            <input type="checkbox" id="열선시트" name="option[]" value="heated seat" class="checkSelect">
+            <input type="checkbox" id="열선시트" name="options[]" value="heated seat" class="checkSelect">
             <label for="열선시트">열선시트</label><br>
-            <input type="checkbox" id="통풍시트" name="option[]" value="ventilation seat" class="checkSelect">
+            <input type="checkbox" id="통풍시트" name="options[]" value="ventilation seat" class="checkSelect">
             <label for="통풍시트">통풍시트</label><br>
-            <input type="checkbox" id="navigation" name="option[]" value="navigation" class="checkSelect">
+            <input type="checkbox" id="navigation" name="options[]" value="navigation" class="checkSelect">
             <label for="navigation">내비게이션</label><br>
         </td>
     </tr>

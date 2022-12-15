@@ -47,8 +47,8 @@
     </tr>
     <tr>
       <td>차 색상</td>
-      <td><input type="color" id="col" name = "col" value =${u.getColor()}>
-        <label for="col">색상을 고르시오.</label>
+      <td bgcolor=${u.getColor()}><input type="color" id="color" name = "color">
+        <label for="color">색상을 고르시오.</label>
 
       </td>
     </tr>
@@ -72,7 +72,7 @@
     <tr>
       <td>주행거리</td>
       <td>
-        <input type="text" id="point" name="point" value =${u.getMileage()}>
+        <input type="text" id="mileage" name="mileage" value =${u.getMileage()}>
       </td>
     </tr>
     <tr>
@@ -91,17 +91,17 @@
         차량의 옵션
       </td>
       <td>
-        <input type="checkbox" id="led" name="option[]" value="01" class="checkSelect">
+        <input type="checkbox" id="led" name="options[]" value="01" class="checkSelect">
         <label for="led">LED 헤드램프</label><br>
-        <input type="checkbox" id="HID" name="option[]" value="02" class="checkSelect">
+        <input type="checkbox" id="HID" name="options[]" value="02" class="checkSelect">
         <label for="HID">HID 헤드램프</label><br>
-        <input type="checkbox" id="HUD" name="option[]" value="03" class="checkSelect">
+        <input type="checkbox" id="HUD" name="options[]" value="03" class="checkSelect">
         <label for="HUD">HUD(Head Up Display)</label><br>
-        <input type="checkbox" id="열선시트" name="option[]" value="04" class="checkSelect">
+        <input type="checkbox" id="열선시트" name="options[]" value="04" class="checkSelect">
         <label for="열선시트">열선시트</label><br>
-        <input type="checkbox" id="통풍시트" name="option[]" value="05" class="checkSelect">
+        <input type="checkbox" id="통풍시트" name="options[]" value="05" class="checkSelect">
         <label for="통풍시트">통풍시트</label><br>
-        <input type="checkbox" id="navigation" name="option[]" value="06" class="checkSelect">
+        <input type="checkbox" id="navigation" name="options[]" value="06" class="checkSelect">
         <label for="navigation">내비게이션</label><br>
       </td>
     </tr>
@@ -128,9 +128,9 @@
         판매 여부
       </td>
       <td>
-        <input type="radio" id="soldout" name="sold" value="soldout_yes">
+        <input type="radio" id="soldout" name="sold" value="1">
         <label for="soldout">예</label><br>
-        <input type="radio" id="soldout_n" name="sold" value="soldout_no">
+        <input type="radio" id="soldout_n" name="sold" value="0">
         <label for="soldout_n">아니오</label><br>
       </td>
     </tr>

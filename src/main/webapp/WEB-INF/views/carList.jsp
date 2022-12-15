@@ -38,7 +38,7 @@
                 <td>${u.getBrand()}</td>
                 <td>${u.getCarName()}</td>
                 <td>${u.getCarType()}</td>
-                <td>${u.getColor()}</td>
+                <td bgcolor=${u.getColor()}>${u.getColor()}</td>
                 <td >
                     <c:if test="${u.getPhoto() ne ''}"><br/>
                         <img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}"
