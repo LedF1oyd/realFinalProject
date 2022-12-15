@@ -20,13 +20,13 @@
   <table id ="edit">
     <tr><td>브랜드</td><td>
       <select id = "brandSelection" name = "brand" value =${u.getBrand()} >
-        <option value="Hyundai">Hyundai</option>
-        <option value="Kia">Kia</option>
-        <option value="Genesis">Genesis</option>
-        <option value="SSangYong">SSangYong</option>
-        <option value="Renault Korea">Renault Korea</option>
-        <option value="GM Korea">GM Korea</option>
-        <option value="Other">Other</option>
+        <option value="현대">Hyundai</option>
+        <option value="기아">Kia</option>
+        <option value="제네시스">Genesis</option>
+        <option value="쌍용">SSangYong</option>
+        <option value="르노코리아자동차">Renault Korea</option>
+        <option value="한국GM">GM Korea</option>
+        <option value="기타">Other</option>
       </select></td></tr>
     <tr><td>차종</td><td><input type="radio" id = "sedan" name = "carType" value =${u.getCarType()}/>
       <label for="sedan">세단</label>
@@ -91,17 +91,17 @@
         차량의 옵션
       </td>
       <td>
-        <input type="checkbox" id="led" name="option[]" value="LED headlamp" class="checkSelect">
+        <input type="checkbox" id="led" name="option[]" value="01" class="checkSelect">
         <label for="led">LED 헤드램프</label><br>
-        <input type="checkbox" id="HID" name="option[]" value="HID headlamp" class="checkSelect">
+        <input type="checkbox" id="HID" name="option[]" value="02" class="checkSelect">
         <label for="HID">HID 헤드램프</label><br>
-        <input type="checkbox" id="HUD" name="option[]" value="HUD(Head Up Display)" class="checkSelect">
+        <input type="checkbox" id="HUD" name="option[]" value="03" class="checkSelect">
         <label for="HUD">HUD(Head Up Display)</label><br>
-        <input type="checkbox" id="열선시트" name="option[]" value="heated seat" class="checkSelect">
+        <input type="checkbox" id="열선시트" name="option[]" value="04" class="checkSelect">
         <label for="열선시트">열선시트</label><br>
-        <input type="checkbox" id="통풍시트" name="option[]" value="ventilation seat" class="checkSelect">
+        <input type="checkbox" id="통풍시트" name="option[]" value="05" class="checkSelect">
         <label for="통풍시트">통풍시트</label><br>
-        <input type="checkbox" id="navigation" name="option[]" value="navigation" class="checkSelect">
+        <input type="checkbox" id="navigation" name="option[]" value="06" class="checkSelect">
         <label for="navigation">내비게이션</label><br>
       </td>
     </tr>
@@ -128,9 +128,9 @@
         판매 여부
       </td>
       <td>
-        <input type="radio" id="soldout" name="sold" value="soldout">
+        <input type="radio" id="soldout" name="sold" value="soldout_yes">
         <label for="soldout">예</label><br>
-        <input type="radio" id="soldout_n" name="sold" value="not soldout">
+        <input type="radio" id="soldout_n" name="sold" value="soldout_no">
         <label for="soldout_n">아니오</label><br>
       </td>
     </tr>

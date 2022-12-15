@@ -15,7 +15,7 @@
 <body>
 
 <form:form modelAttribute="u" method="POST" action="../editok">
-	<form:hidden path="carid"/>
+	<form:hidden path="seq"/>
 	<input type="hidden" name="carid" />
 	<table id ="edit">
 		<tr><td>제목</td><td><input type ="text" name ="title" value=${u.getTitle()} ></td></tr>

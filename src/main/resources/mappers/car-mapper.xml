@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Car">
     <insert id="insertCar">
-        insert into CARREG ( brand, carType, color, photo, manufacturedDay, mileage, warranty, options, description, price, sold, carName) values (#{brand}, #{carType}, #{color}, #{photo}, #{manufacturedDay}, #{mileage}, #{warranty}, #{options}, #{description}, #{price}, #{sold}, #{carName})
+        insert into CARREG (brand, carType, color, photo, manufacturedDay, mileage, warranty, options, description, price, sold, carName) values (#{brand},#{carType}, #{color}, #{photo}, #{manufacturedDay}, #{mileage}, #{warranty}, #{options}, #{description}, #{price}, #{sold}, #{carName} )
     </insert>
     <update id="updateCar">
         update CARREG set brand=#{brand}, carType=#{carType}, color=#{color}, photo=#{photo}, manufacturedDay=#{manufacturedDay},mileage=#{mileage}, warranty=#{warranty}, options=#{options}, description=#{description}, price=#{price}, sold=#{sold}, carName =#{carName} where carid=#{carid}
