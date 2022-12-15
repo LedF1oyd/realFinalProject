@@ -39,7 +39,7 @@ public class CarController {
     public String editCar(@PathVariable("id") int id, Model model){
         CarVO carVO = carService.getCar(id);
         model.addAttribute("u", carVO);
-        return "editform";
+        return "careditform";
     }
 
     @RequestMapping(value = "/car/editok", method = RequestMethod.POST)

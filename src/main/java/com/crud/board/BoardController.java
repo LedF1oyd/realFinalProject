@@ -25,7 +25,7 @@ public class BoardController {
     @RequestMapping(value = "/board/add",
             method = RequestMethod.GET)
     public String addPost() {
-        return "addpostform";
+        return "addcarform";
     }
     @RequestMapping(value = "/board/addok", method = RequestMethod.POST)
     public String addPostOK(BoardVO vo){
