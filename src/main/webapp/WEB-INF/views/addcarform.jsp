@@ -9,7 +9,7 @@
 <body>
 
 <h1>Add New Post</h1>
-<form action="addok" method="post" enctype="multipart/form-data">
+<form action="./addok" method="post">
 <table id = edit>
     <tr><td>브랜드</td><td>
         <select id = "brandSelection" name = "brand">
@@ -121,9 +121,9 @@
             판매 여부
         </td>
         <td>
-            <input type="radio" id="soldout" name="sold" value="soldout">
+            <input type="radio" id="soldout" name="sold" value="1">
             <label for="soldout">예</label><br>
-            <input type="radio" id="soldout_n" name="sold" value="not_soldout">
+            <input type="radio" id="soldout_n" name="sold" value="0">
             <label for="soldout_n">아니오</label><br>
         </td>
     </tr>

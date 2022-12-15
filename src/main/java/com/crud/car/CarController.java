@@ -29,6 +29,7 @@ public class CarController {
     @RequestMapping(value = "/car/addok", method = RequestMethod.POST)
     public String addCarOK(CarVO vo){
         int i = carService.insertCar(vo);
+        System.out.println(vo.getCarName()+vo.getBrand()+"\n");
         if(i==0)
             System.out.println("데이터 추가 실패");
         else

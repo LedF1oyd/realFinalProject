@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="careditform 추가">
+    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="finishd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bf150e72-6d1c-4fd5-bdfc-b0aba433b136" />
+        <option name="url" value="https://github.com/LedF1oyd/realFinalProject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -242,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671102756496</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finishd">
+      <created>1671104308315</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671104308315</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,8 +275,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finishd" />
     <MESSAGE value="careditform 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="careditform 추가" />
+    <MESSAGE value="finishd" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishd" />
   </component>
 </project>
