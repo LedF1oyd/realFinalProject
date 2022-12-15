@@ -9,6 +9,14 @@
             const a = confirm("정말로 삭제하겠습니까?");
             if(a) location.href='delete_ok/'+id;
         }
+        function sold(issold){
+            if (issold==1){
+                return "sold";
+            }
+            else{
+                return "on sale"
+            }
+        }
     </script>
 </head>
 <body>
