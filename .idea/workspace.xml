@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="영어로 바꿈">
+    <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="영어로 바꿈 real로">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/careditform.jsp" afterDir="false" />
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671103490230</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="영어로 바꿈 real로">
+      <created>1671103667925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671103667925</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +277,7 @@
     <MESSAGE value="finishd" />
     <MESSAGE value="careditform 추가" />
     <MESSAGE value="영어로 바꿈" />
-    <option name="LAST_COMMIT_MESSAGE" value="영어로 바꿈" />
+    <MESSAGE value="영어로 바꿈 real로" />
+    <option name="LAST_COMMIT_MESSAGE" value="영어로 바꿈 real로" />
   </component>
 </project>

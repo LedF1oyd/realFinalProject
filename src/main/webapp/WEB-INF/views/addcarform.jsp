@@ -73,9 +73,9 @@
             제조사보증
         </td>
         <td>
-            <input type="radio" id="warranty_yes" name="warranty" value="warranty_yes">
+            <input type="radio" id="warranty_yes" name="warranty" value="warranty_valid">
             <label for="warranty_yes">예</label><br>
-            <input type="radio" id="warranty_n" name="warranty" value="warranty_n">
+            <input type="radio" id="warranty_n" name="warranty" value="warranty_expired">
             <label for="warranty_n">아니오</label><br>
         </td>
     </tr>
@@ -84,17 +84,17 @@
             차량의 옵션
         </td>
         <td>
-            <input type="checkbox" id="led" name="option" value="LED 헤드램프" class="checkSelect">
+            <input type="checkbox" id="led" name="option[]" value="LED headlamp" class="checkSelect">
             <label for="led">LED 헤드램프</label><br>
-            <input type="checkbox" id="HID" name="option" value="HID 헤드램프" class="checkSelect">
+            <input type="checkbox" id="HID" name="option[]" value="HID headlamp" class="checkSelect">
             <label for="HID">HID 헤드램프</label><br>
-            <input type="checkbox" id="HUD" name="option" value="HUD(Head Up Display)" class="checkSelect">
+            <input type="checkbox" id="HUD" name="option[]" value="HUD(Head Up Display)" class="checkSelect">
             <label for="HUD">HUD(Head Up Display)</label><br>
-            <input type="checkbox" id="열선시트" name="option" value="열선시트" class="checkSelect">
+            <input type="checkbox" id="열선시트" name="option[]" value="heated seat" class="checkSelect">
             <label for="열선시트">열선시트</label><br>
-            <input type="checkbox" id="통풍시트" name="option" value="통풍시트" class="checkSelect">
+            <input type="checkbox" id="통풍시트" name="option[]" value="ventilation seat" class="checkSelect">
             <label for="통풍시트">통풍시트</label><br>
-            <input type="checkbox" id="navigation" name="option" value="내비게이션" class="checkSelect">
+            <input type="checkbox" id="navigation" name="option[]" value="navigation" class="checkSelect">
             <label for="navigation">내비게이션</label><br>
         </td>
     </tr>
@@ -123,7 +123,7 @@
         <td>
             <input type="radio" id="soldout" name="sold" value="soldout">
             <label for="soldout">예</label><br>
-            <input type="radio" id="soldout_n" name="sold" value="soldout_n">
+            <input type="radio" id="soldout_n" name="sold" value="not_soldout">
             <label for="soldout_n">아니오</label><br>
         </td>
     </tr>
