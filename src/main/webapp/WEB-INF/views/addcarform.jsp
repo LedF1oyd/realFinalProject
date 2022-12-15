@@ -9,7 +9,7 @@
 <body>
 
 <h1>Add New Post</h1>
-<form action="addok" method="post">
+<form action="addok" method="post" enctype="multipart/form-data">
 <table id = edit>
     <tr><td>브랜드</td><td>
         <select id = "brandSelection" name = "brand">

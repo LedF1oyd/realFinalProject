@@ -6,5 +6,6 @@
     <typeAliases>
         <typeAlias alias="board" type="com.crud.board.bean.BoardVO" />
         <typeAlias alias="user" type="com.crud.member.bean.UserVO" />
+        <typeAlias alias="car" type="com.crud.car.bean.CarVO" />
     </typeAliases>
 </configuration>

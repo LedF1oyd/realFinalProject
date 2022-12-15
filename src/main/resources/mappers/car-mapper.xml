@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Car">
+    <insert id="insertCar">
+        insert into CARREG ( brand, carType, color, photo, manufacturedDay, mileage, warranty, options, description, price, sold) values (#{brand}, #{carType}, #{color}, #{photo}, #{manufacturedDay}, #{mileage}, #{warranty}, #{options}, #{description}, #{price}, #{sold})
+    </insert>
+    <update id="updateCar">
+        update CARREG set brand=#{brand}, carType=#{carType}, color=#{color}, photo=#{photo}, manufacturedDay=#{manufacturedDay},mileage=#{mileage}, warranty=#{warranty}, options=#{options}, description=#{description}, price=#{price}, sold=#{sold} where carid=#{carid}
+    </update>
+    <delete id="deleteCar">
+        delete from CARREG where carid=#{carid}
+    </delete>
+    <select id="getCar" resultType="car">
+        select * from CARREG where carid=#{carid}
+    </select>
+    <select id="getCarList" resultType="car">
+        select * from CARREG order by carid desc
+    </select>
+</mapper>
+
