@@ -24,11 +24,11 @@ public class CarController {
     }
     @RequestMapping(value = "/car/add",
             method = RequestMethod.GET)
-    public String addPost() {
-        return "addpostform";
+    public String addCar() {
+        return "addcarform";
     }
     @RequestMapping(value = "/car/addok", method = RequestMethod.POST)
-    public String addPostOK(CarVO vo){
+    public String addCarOK(CarVO vo){
         int i = carService.insertCar(vo);
         if(i==0)
             System.out.println("데이터 추가 실패");
@@ -37,14 +37,14 @@ public class CarController {
         return "redirect:list";
     }
     @RequestMapping(value = "/car/editform/{id}", method = RequestMethod.GET)
-    public String editPost(@PathVariable("id") int id, Model model){
+    public String editCar(@PathVariable("id") int id, Model model){
         CarVO carVO = carService.getCar(id);
         model.addAttribute("u", carVO);
         return "editform";
     }
 
     @RequestMapping(value = "/car/editok", method = RequestMethod.POST)
-    public String editPostOk(CarVO vo){
+    public String editCarOk(CarVO vo){
 
         if(carService.updateCar(vo)==0)
             System.out.println("데이터 수정 실패");
@@ -53,7 +53,7 @@ public class CarController {
         return "redirect:list";
     }
     @RequestMapping(value = "/car/delete_ok/{id}", method = RequestMethod.GET)
-    public String deletePost(@PathVariable("id") int id){
+    public String deleteCar(@PathVariable("id") int id){
 
         if(carService.deleteCar(id)==0)
             System.out.println("데이터 삭제 실패");

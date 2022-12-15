@@ -51,16 +51,16 @@
                 <td>${u.getDescription()}</td>
                 <td>${u.getPrice()}</td>
                 <td>${u.getSold()}</td>
-                <td>${u.getRegdate()}</td>
-                <td><a href="editform/${u.getSeq()}">Edit</a></td>
-                <td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
+                <td>${u.getRegDate()}</td>
+                <td><a href="editform/${u.getCarid()}">Edit</a></td>
+                <td><a href="javascript:delete_ok('${u.getCarid()}')">Delete</a></td>
             </tr>
         </c:forEach>
     </table>
 </table>
 
 
-<br/><a href="addCar">Add New Post</a>
+<br/><a href="add">Add New Post</a>
 
 </body>
 </html>
