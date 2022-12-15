@@ -17,12 +17,12 @@
             </td>
             <td>
                 <select id = "brandSelection" name = "brand">
-                    <option value="현대">현대</option>
-                    <option value="기아">기아</option>
-                    <option value="제네시스">제네시스</option>
-                    <option value="쌍용">쌍용</option>
-                    <option value="르노코리아자동차">르노코리아자동차</option>
-                    <option value="한국GM">한국GM</option>
+                    <option value="Hyundai">현대</option>
+                    <option value="Kia">기아</option>
+                    <option value="Genesis">제네시스</option>
+                    <option value="Ssanyong">쌍용</option>
+                    <option value="Renault Korea">르노코리아자동차</option>
+                    <option value="GM Korea">한국GM</option>
                 </select>
             </td>
         </tr>
@@ -102,17 +102,17 @@
                 차량의 옵션을 모두 체크해주세요
             </td>
             <td>
-                <input type="checkbox" id="led" name="option" value="LED 헤드램프" class="checkSelect">
+                <input type="checkbox" id="led" name="options[]" value="LED 헤드램프" class="checkSelect">
                 <label for="led">LED 헤드램프</label><br>
-                <input type="checkbox" id="HID" name="option" value="HID 헤드램프" class="checkSelect">
+                <input type="checkbox" id="HID" name="options[]" value="HID 헤드램프" class="checkSelect">
                 <label for="HID">HID 헤드램프</label><br>
-                <input type="checkbox" id="HUD" name="option" value="HUD(Head Up Display)" class="checkSelect">
+                <input type="checkbox" id="HUD" name="options[]" value="HUD(Head Up Display)" class="checkSelect">
                 <label for="HUD">HUD(Head Up Display)</label><br>
-                <input type="checkbox" id="열선시트" name="option" value="열선시트" class="checkSelect">
+                <input type="checkbox" id="열선시트" name="options[]" value="열선시트" class="checkSelect">
                 <label for="열선시트">열선시트</label><br>
-                <input type="checkbox" id="통풍시트" name="option" value="통풍시트" class="checkSelect">
+                <input type="checkbox" id="통풍시트" name="options[]" value="통풍시트" class="checkSelect">
                 <label for="통풍시트">통풍시트</label><br>
-                <input type="checkbox" id="navigation" name="option" value="내비게이션" class="checkSelect">
+                <input type="checkbox" id="navigation" name="options[]" value="내비게이션" class="checkSelect">
                 <label for="navigation">내비게이션</label><br>
             </td>
         </tr>
