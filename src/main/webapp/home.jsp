@@ -42,7 +42,7 @@
 
 </script>
 </P>
-<P><a href="board/list">게시판으로 이동</a></P>
+<P><a href="car/list">게시판으로 이동</a></P>
 </body>
 </html>
 

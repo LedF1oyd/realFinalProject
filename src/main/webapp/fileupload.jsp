@@ -15,10 +15,11 @@
 </head>
 <body>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@ page import="com.example.*,java.io.File"%>
+<%@ page import="com.crud.*,java.io.File"%>
 <%@ page import="com.oreilly.servlet.*"%>
 <%@ page import="com.oreilly.servlet.*"%>
 <%@ page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy" %>
+<%@ page import="org.springframework.web.multipart.MultipartRequest" %>
 <%
   String filename="";
   int sizeLimit = 15*1024*1024;

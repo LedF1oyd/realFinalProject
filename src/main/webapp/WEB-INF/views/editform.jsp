@@ -15,8 +15,8 @@
 <body>
 
 <form:form modelAttribute="u" method="POST" action="../editok">
-	<form:hidden path="seq"/>
-	<input type="hidden" name="seq" />
+	<form:hidden path="carid"/>
+	<input type="hidden" name="carid" />
 	<table id ="edit">
 		<tr><td>제목</td><td><input type ="text" name ="title" value=${u.getTitle()} ></td></tr>
 		<tr><td>글쓴이</td><td><input type ="text" name ="writer" value=${u.getWriter()}></td></tr>

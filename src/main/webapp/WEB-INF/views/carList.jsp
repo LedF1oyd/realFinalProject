@@ -33,19 +33,34 @@
         <th>Registration Day</th>
         <c:forEach items="${list}" var="u">
             <tr align="center">
-                <td>${u.getSeq()}</td>
-                <td>${u.getTitle()}</td>
-                <td>${u.getWriter()}</td>
-                <td>${u.getContent()}</td>
+                <td>${u.getCarid()}</td>
+                <td>${u.getBrand()}</td>
+                <td>${u.getCarType()}</td>
+                <td>${u.getColor()}</td>
+                <td >
+                    <c:if test="${u.getPhoto() ne ''}"><br/>
+                        <img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}"
+                             style="width:100px; height:100px;"
+                        >
+                    </c:if>
+                </td>
+                <td>${u.getManufacturedDay()}</td>
+                <td>${u.getMileage()}</td>
+                <td>${u.getWarranty()}</td>
+                <td>${u.getOptions()}</td>
+                <td>${u.getDescription()}</td>
+                <td>${u.getPrice()}</td>
+                <td>${u.getSold()}</td>
                 <td>${u.getRegdate()}</td>
                 <td><a href="editform/${u.getSeq()}">Edit</a></td>
                 <td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
             </tr>
         </c:forEach>
     </table>
+</table>
 
 
-<br/><a href="add">Add New Post</a>
+<br/><a href="addCar">Add New Post</a>
 
 </body>
 </html>

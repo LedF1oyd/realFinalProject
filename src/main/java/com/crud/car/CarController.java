@@ -20,7 +20,7 @@ public class CarController {
             method = RequestMethod.GET)
     public String carlist(Model model) { model.addAttribute("list",
             carService.getCarList());
-        return "list";
+        return "carList";
     }
     @RequestMapping(value = "/car/add",
             method = RequestMethod.GET)

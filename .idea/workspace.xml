@@ -10,16 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18bba083-71c1-4f68-aea9-f7c9570e7dec" name="Changes" comment="finishd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/bean/CarVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/dao/CarDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/car-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addcarform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/car/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jiuhyeong/Documents/Handong/2022-2/Practival Project1/MyBatisFourthTry/src/main/webapp",
+    "last_opened_file_path": "/Users/jiuhyeong/Documents/Handong/2022-2/Practival Project1/MyBatisFourthTry/src/main/webapp/WEB-INF/views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,8 +84,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -199,7 +195,7 @@
       <workItem from="1670672436390" duration="1374000" />
       <workItem from="1671088926726" duration="1785000" />
       <workItem from="1671091539755" duration="235000" />
-      <workItem from="1671092474247" duration="4353000" />
+      <workItem from="1671092474247" duration="5741000" />
     </task>
     <task id="LOCAL-00001" summary="finishd">
       <created>1670593581433</created>
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671092635775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finishd">
+      <created>1671097795302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671097795302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
